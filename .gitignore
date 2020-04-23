@@ -1,0 +1,31 @@
+#####
+# OS X temporary files that should never be committed
+.DS_Store
+*.lock
+
+####
+# Objective-C/Swift specific
+*.hmap
+*.ipa
+
+####
+# Xcode build files
+DerivedData/
+build/
+Builds/
+
+####
+# Pod. We want to ignore the pods folder but keep the lock
+Pods/
+!Podfile.lock
+
+####
+# Other Xcode files
+*.ipa
+xcuserdata
+!xcschemes
+!xcshareddata
+!default.xcworkspace
+*.xcworkspacedata
+*.xccheckout
+*.xcuserstate
